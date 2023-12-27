@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+body {
+    background: #f2f2f2;
+    
+}
+h1{
+    margin:60px auto;
+    font-size:6rem;
+    text-align: center;
+    font-family:"Raleway",sans-serif;
+    font-weight:900;
+    text-align: center;
+    background-image: url("https://i.gifer.com/Es5N.gif");
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color:transparent;
+}
+.parallax-1{
+    background: url(images/butterfly.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+
+.parallax-inner{
+    padding: 10% 0;
+}
+
+h2{
+    width:100%;
+    font-size:2rem;
+    color:rgb(0, 146, 119);
+    text-align:center;
+    font-weight:900;
+    letter-spacing: 2px;
+    margin: 20px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading2{
+    color:rgba(209, 116, 252,0.8);
+}
+.heading3{
+    color:rgba(250, 252, 116, 0.8);
+}
+p{
+    font-size:16px;
+    color:#555;
+    text-align: justify;
+    line-height:30px;
+    margin:0 50px 40px;
+}
+.parallax-2{
+    background: url("https://images6.alphacoders.com/596/596061.jpg") no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+.parallax-3{
+    background: url(images/corel\ reef.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment: fixed;
+}
+h3{
+    font-size: 60px;
+    text-align: center;
+    font-weight:800;
+    letter-spacing: 2px;
+    color:rgba(214, 242, 255, 0.7);
+    background-color: rgb(102, 47, 169);
+    padding:10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+p:nth-of-type(1),
+p:nth-of-type(2){
+    margin:20px 50px;
+}
